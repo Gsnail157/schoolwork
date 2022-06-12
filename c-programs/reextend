@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# reextend -- Changes the extension on file(s)
+# Gary Wang
+# 4/17/2022
+
+arg1=$1
+len=${#arg1}
+ls -1 | find -type f -name "*$1" | cut -c 3- | while read file ; do
+	newfilename=${file: 0: -$len}	
+	mv $file $newfilename$2
+
+done
+
