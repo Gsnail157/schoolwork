@@ -1,4 +1,4 @@
-# School Homework/Assignments during University Years
+# School Homework/Assignments during undergrad
 
 Classes Taken:
 - CS171: Computer Programming I
